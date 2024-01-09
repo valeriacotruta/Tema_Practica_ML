@@ -1,4 +1,4 @@
 # Tema_Practica_ML
 ## Echipa:
-    Cotruță Valeria
-    Zolandkovschi Andreea
+    Cotruță Valeria, grupa 3A1
+    Zolandkovschi Andreea, grupa 3A1
