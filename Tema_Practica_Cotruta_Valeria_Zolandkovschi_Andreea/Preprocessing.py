@@ -74,12 +74,3 @@ class Preprocessing:
                         word_dictionary_ham[category] += Counter(words)
 
         return word_dictionary_ham, word_dictionary_spam
-
-    @staticmethod
-    def filter_top_words(word_dict, top_count=1000):
-        filtered_words = {}
-        for category, counter in word_dict.items():
-            sorted_counter = dict(sorted(counter.items(), key=lambda item: item[1], reverse=True)[:top_count])
-            filtered_words[category] = {k: v for k, v in counter.items() if k in sorted_counter}
-
-        return filtered_words
