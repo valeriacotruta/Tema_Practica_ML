@@ -31,7 +31,7 @@ def classify_test_dataset():
 
 
 def print_naive_bayes_accuracy():
-    print("Acuratetea algoritmului Bayes Naiv pe setul de date de testare:", accuracy_naive_bayes)
+    print("Acuratetea algoritmului Bayes Naiv pe setul de date de testare:", accuracy_naive_bayes*100)
 
     plt.bar(['Acuratețe'], [accuracy_naive_bayes], color='blue')
     plt.ylim(0, 1)
